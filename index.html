@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Exo front</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="assets/logo.svg" alt="logo">
+                <span>Phantom</span>
+            </div>
+            <a href="#" onclick="toggle_visibility('menu');"><i class="fa fa-bars" aria-hidden="true"></i></i></a>
+            <div id="menu">
+                <ul>
+                    <li class="menu-title">Menu</li>
+                    <li><a href="#">Home</a></li><hr>
+                    <li><a href="#">Menu 1</a></li><hr>
+                    <li><a href="#">Menu 2</a></li><hr>
+                    <li><a href="#">Menu 3</a></li><hr>
+                    <li><a href="#">Menu 4</a></li>
+                </ul>
+                <a href="#" onclick="toggle_visibility('menu');"><i class="fa fa-times" aria-hidden="true"></i></i></i></a>
+            </div>
+        </header>
+        <div class="container">
+            <div>
+                <h1>
+                    This is Phantom, a free, fully responsive site template designed by <a href="#">HTML5 UP</a>.
+                </h1>
+                <p>
+                    Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
+                </p>
+            </div>
+        </div>
+        <ul class="card">
+            <li class="s01"><h2>Lorem</h2></li>
+            <li class="s02"><h2>Lorem</h2></li>
+            <li class="s03"><h2>Lorem</h2></li>
+            <li class="s04"><h2>Lorem</h2></li>
+            <li class="s05"><h2>Lorem</h2></li>
+            <li class="s06"><h2>Lorem</h2></li>
+            <li class="s07"><h2>Lorem</h2></li>
+            <li class="s08"><h2>Lorem</h2></li>
+            <li class="s09"><h2>Lorem</h2></li>
+            <li class="s10"><h2>Lorem</h2></li>
+            <li class="s11"><h2>Lorem</h2></li>
+            <li class="s12"><h2>Lorem</h2></li>
+        </ul>
+    </section>
+    <section class="wrapper footer">
+        <footer>
+            <div class="foot-container">
+                <div class="par1">
+                    <span class="foot-title">Follow</span>
+                    <div class="social-connect">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="#"><i class="fa fa-500px"></i></a>
+                        <a href="#"><i class="fa fa-phone"></i></a>
+                        <a href="#"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+                <div class="par2">
+                    <span class="foot-title">Get in touch</span>
+                    <div class="input-container">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+            </div>
+            <button><b>Send</b></button>
+            <div class="copyright">
+                <span>© Untitled. All rights reserved</span><span class="separator">|</span>
+                <span>Design: <a href="#">HTML5 UP</a></span><span class="separator">|</span>
+                <span>Demo Images: <a href="#">Unsplash</a></span>
+            </div>
+        </footer>
+    </section>
+<script type="text/javascript">
+    function toggle_visibility(menu) {
+        var e = document.getElementById(menu);
+        if(e.style.display == 'block')
+            e.style.display = 'none';
+        else
+            e.style.display = 'block';
+    }
+</script>
+</body>
+</html>

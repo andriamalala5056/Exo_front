@@ -1,0 +1,357 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    color: #585858;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 32px;
+}
+
+.logo span {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    vertical-align: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.logo span:hover {
+    color: #f2849e;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+p {
+    font-size: 11pt;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: dotted;
+    color: #585858;
+    border-color: #5858584f;
+    transition: 0.3s;
+}
+
+a:hover {
+    border-bottom: none;
+    color: #f2849e;
+    transition: 0.3s;
+}
+
+ul.card {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+ul.card li {
+    margin-bottom:20px;
+    background-size: cover;
+    height: 263px;
+    background-position: center;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s01 {background-image: url(../assets/pic01.jpg);}
+.s02 {background-image: url(../assets/pic02.jpg);}
+.s03 {background-image: url(../assets/pic03.jpg);}
+.s04 {background-image: url(../assets/pic04.jpg);}
+.s05 {background-image: url(../assets/pic05.jpg);}
+.s06 {background-image: url(../assets/pic06.jpg);}
+.s07 {background-image: url(../assets/pic07.jpg);}
+.s08 {background-image: url(../assets/pic08.jpg);}
+.s09 {background-image: url(../assets/pic09.jpg);}
+.s10 {background-image: url(../assets/pic10.jpg);}
+.s11 {background-image: url(../assets/pic11.jpg);}
+.s12 {background-image: url(../assets/pic12.jpg);}
+
+li h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+footer i.fa {
+    border-style: solid;
+    border-color: #cecece;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 8px 7px 0px;
+    transition: 0.3s;
+}
+
+.social-connect i:hover {
+    border-color: #f2849e;
+    transition: 0.3s;
+}
+
+.foot-title {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    vertical-align: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: #f6f6f6;
+}
+
+.social-connect {
+    margin: 5px 0px 30px 0px;
+}
+
+.social-connect a {
+    border-bottom: none;
+}
+
+input {
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-bottom: 1px solid;
+    border-color: #aeaeae;
+    width: 100%;
+    background-color: transparent;
+}
+
+textarea {
+    border-style: none;
+    width: 100%;
+    border-bottom: 1px solid #aeaeae;
+    background-color: transparent;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+button {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    padding: 13px;
+    border-radius: 6px;
+    background-color: #585858;
+    border: 0px;
+    color: white;
+    margin: 15px 0px 15px 0px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f2849e;
+    transition: 0.3s;
+}
+
+.copyright span, .copyright a {
+    font-size: 13px;
+    color: #b9b9b9;
+}
+
+.copyright a:hover {
+    color: #f2849e;
+    transition: 0.3s;
+}
+
+.copyright span {
+    display: block;
+}
+
+.copyright {
+    margin: 20px 0 20px 0;
+}
+
+span.separator {
+    margin: 0px 3px 0px 8px;
+}
+
+header ul {
+    background-color: #585858;
+    color: white;
+    display: flow-root;
+    padding: 45px;
+    height: 100vh;
+    width: 75%;
+    max-width: 165px;
+    margin-top: 0px;
+    float: right;
+}
+
+header li {
+    display: block;
+    font-size: 17px;
+}
+
+hr {
+    border-width: 0.5px;
+    border-color: #ffffff3b;
+}
+
+li.menu-title {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+#menu {
+    display: none;
+    z-index: 5;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #ffffffdb;
+    width: 100%;
+}
+
+#menu > ul > li > a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+#menu > ul > li > a:hover {
+    color: #f2849e;
+    transition: 0.3s;
+}
+
+i.fa.fa-bars {
+    position: fixed;
+    z-index: 4;
+    right: 20px;
+    top: 25px;
+    font-size: 35px;
+    background-color: #ffffff8f;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+i.fa.fa-times {
+    font-size: 50px;
+    float: right;
+    margin: 31px 10px 0px 0px;
+}
+
+@media screen and (max-width:479px) {
+    span.separator {
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .card li {
+        width: calc(50% - 10px);
+        height: 201.5px;
+        display: inline-flex;
+    }
+
+    button {
+        width: auto;
+    }
+
+    .copyright span {
+        display: inline-block;
+    }
+
+    input {
+        width: calc(50% - 10px);
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    header ul {
+        max-width: 300px;
+    }
+
+    
+    .input-container {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .card li {
+        height: 261.5px;
+    }
+}
+
+@media screen and (min-width:801px) {
+    .card li {
+        height: 362px;
+    }
+
+    .foot-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .par1 {
+        max-width: 284px;
+    }
+
+    .par2 {
+        width: calc(90% - 20px);
+        margin-right: 20px;
+        max-width: 700px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    .card li {
+        width: calc(33% - 10px);
+    }
+
+    ul.card li {
+        height: 309.44px;
+    }
+}
+
+@media screen and (min-width:1281px) {
+    ul.card li {
+        height: 323.69px;
+    }
+
+    .wrapper {
+        padding: 25px 10% 25px 10%;
+    }
+}
