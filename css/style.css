@@ -76,6 +76,12 @@ ul.card li {
     justify-content: center;
 }
 
+ul.card li:hover {
+    zoom: 1.1;
+    margin: -12px 5px -21px 5px;
+    z-index: 3;
+}
+
 .s01 {background-image: url(../assets/pic01.jpg);}
 .s02 {background-image: url(../assets/pic02.jpg);}
 .s03 {background-image: url(../assets/pic03.jpg);}
@@ -88,6 +94,92 @@ ul.card li {
 .s10 {background-image: url(../assets/pic10.jpg);}
 .s11 {background-image: url(../assets/pic11.jpg);}
 .s12 {background-image: url(../assets/pic12.jpg);}
+
+ul.card div {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+ul.card p {
+    display: none;
+}
+
+li:hover p {
+    display: block;
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+}
+
+li h2:after {
+    content: "Lorem";
+}
+
+li p:after {
+    content: "Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt";
+}
+
+li div{
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+li.s01 div {
+    background-color: #f2849ec2;
+}
+
+li.s02 div {
+    background-color: #8498f2c2;
+}
+
+li.s03 div {
+    background-color: #84f2afc2;
+}
+
+li.s04 div {
+    background-color: #f284c2c2;
+}
+
+li.s05 div {
+    background-color: #d684f2c2;
+}
+
+li.s06 div {
+    background-color: #9984f2c2;
+}
+
+li.s07 div {
+    background-color: #84d0f2c2;
+}
+
+li.s08 div {
+    background-color: #84f2b9c2;
+}
+
+li.s09 div {
+    background-color: #f284b3c2;
+}
+
+li.s10 div {
+    background-color: #db84f2c2;
+}
+
+li.s11 div {
+    background-color: #9984f2c2;
+}
+
+li.s12 div {
+    background-color: #f284e6c2;
+}
+
+li div:hover {
+    background-color: transparent;
+    transition: 0.3s;
+}
 
 li h2 {
     text-transform: uppercase;
@@ -155,6 +247,11 @@ textarea {
     border-bottom: 1px solid #aeaeae;
     background-color: transparent;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline:none;
+    border-bottom: 2px solid #f2849e;
 }
 
 button {
